@@ -1,0 +1,27 @@
+
+  .cadastro{
+    background-color: 	#e9f4f5;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 200%;
+
+  }
+
+  .titulo{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  button {
+    width: 15%;
+    padding: 10px;
+    margin-top: 2rem;
+    margin: 45px 200px 20px 700px;
+
+  
+  }

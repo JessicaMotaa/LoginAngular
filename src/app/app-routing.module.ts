@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ClienteFormComponent } from './cliente/cliente-form/cliente-form.component';
 import { ConteudoComponent } from './conteudo/conteudo.component';
 import { Erro404Component } from './erro404/erro404.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'', component:LayoutComponent, children:[
     {path:'home', component:HomeComponent},
     {path:'conteudo', component:ConteudoComponent},
+    {path:'cliente', component:ClienteFormComponent},
     {path:'**', component:Erro404Component},
 ]},
 ];
